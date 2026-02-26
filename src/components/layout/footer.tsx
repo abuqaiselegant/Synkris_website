@@ -58,8 +58,9 @@ export default function Footer() {
                 </p>
                 <div className="flex">
                   <a
-                    href="https://www.linkedin.com/company/pimjo/posts/?feedView=all"
+                    href="https://www.linkedin.com/company/synkris"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white/80 size-10"
                   >
                     <svg
@@ -89,8 +90,9 @@ export default function Footer() {
                     </svg>
                   </a>
                   <a
-                    href="https://x.com/PimjoHQ"
+                    href="https://x.com/SynkrisAI"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white/80 size-10"
                   >
                     <svg
@@ -107,8 +109,9 @@ export default function Footer() {
                     </svg>
                   </a>
                   <a
-                    href="https://github.com/PIMJO"
+                    href="https://github.com/synkris"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white/80 size-10"
                   >
                     <svg
@@ -167,8 +170,9 @@ export default function Footer() {
                     </svg>
                   </a>
                   <a
-                    href="https://www.facebook.com/PimjoHQ"
+                    href="https://www.facebook.com/SynkrisAI"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-white/80 size-10"
                   >
                     <svg

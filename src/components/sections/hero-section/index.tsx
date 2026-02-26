@@ -8,7 +8,7 @@ export default function HeroSection() {
     <section className="pt-16 relative overflow-hidden dark:bg-[#171F2E]">
       <div className="max-w-[120rem] mx-auto relative">
         <div className="wrapper">
-          <div className="max-w-[800px] mx-auto">
+          <div className="max-w-[700px] mx-auto">
             <div className="text-center pb-16">
               <Subheading text="Most Powerful AI Tools at One Place" />
 
@@ -56,8 +56,8 @@ export default function HeroSection() {
             </div>
             <div className="absolute hidden lg:block z-10 -top-20 -translate-y-20 left-1/2 -translate-x-1/2">
               <svg
-                width="1300"
-                height="1001"
+                width="800"
+                height="701"
                 viewBox="0 0 1300 1001"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -118,34 +118,38 @@ export default function HeroSection() {
         </div>
 
         <div className="max-[1100px]:hidden">
-          <Image
-            src="/images/hero/shape-left-1.svg"
-            className="absolute top-14 left-16 floating-1"
-            alt=""
-            width={230}
-            height={44}
-          />
-          <Image
-            src="/images/hero/shape-left-2.svg"
-            className="absolute left-[145px] top-[298px] floating-2 max-[1240px]:left-[80px]"
-            alt=""
-            width={230}
-            height={44}
-          />
-          <Image
-            src="/images/hero/shape-right-1.svg"
-            className="absolute right-16 top-[108px] floating-3"
-            alt=""
-            width={230}
-            height={44}
-          />
-          <Image
-            src="/images/hero/shape-right-2.svg"
-            className="absolute top-[316px] right-[200px] floating-4 max-[1240px]:right-[80px] max-[1350px]:right-[150px] max-[1500px]:right-[200px]"
-            alt=""
-            width={230}
-            height={44}
-          />
+          <Link href="/text-generator" className="absolute top-14 left-16 floating-1">
+            <Image
+              src="/images/hero/shape-left-1.svg"
+              alt="AI Voice Agents"
+              width={230}
+              height={44}
+            />
+          </Link>
+          <Link href="/text-generator" className="absolute left-[145px] top-[298px] floating-2 max-[1240px]:left-[80px]">
+            <Image
+              src="/images/hero/shape-left-2.svg"
+              alt="Automated Call Handling"
+              width={230}
+              height={44}
+            />
+          </Link>
+          <Link href="/text-generator" className="absolute right-16 top-[108px] floating-3">
+            <Image
+              src="/images/hero/shape-right-1.svg"
+              alt="Appointment Booking"
+              width={230}
+              height={44}
+            />
+          </Link>
+          <Link href="/text-generator" className="absolute top-[316px] right-[200px] floating-4 max-[1240px]:right-[80px] max-[1350px]:right-[150px] max-[1500px]:right-[200px]">
+            <Image
+              src="/images/hero/shape-right-2.svg"
+              alt="24/7 Customer Support"
+              width={230}
+              height={44}
+            />
+          </Link>
         </div>
       </div>
       <div className="hero-glow-bg pointer-events-none w-full h-167.5 absolute z-10 bottom-0"></div>

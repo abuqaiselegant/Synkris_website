@@ -10,11 +10,11 @@ const onest = Onest({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Demo AIStarterKit OSS - Next.js AI Starter Kit Demo',
-    template: '%s | AIStarterKit OSS Demo',
+    default: 'Synkris - AI Voice Agent Platform',
+    template: '%s | Synkris AI',
   },
   description:
-    'Demo website of AIStarterKit OSS boilerplate. Built using Next.js, Tailwind CSS, Drizzle ORM, and PostgreSQL.',
+    'Synkris AI builds intelligent voice agents that automate customer calls, bookings, and follow-ups. Built with Next.js, React 19, and Tailwind CSS.',
 };
 
 export default function RootLayout({

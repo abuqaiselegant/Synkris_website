@@ -13,7 +13,7 @@ export default function PrivacyPage() {
           <p className="text-gray-500 dark:text-gray-400 font-medium mb-2">
             Updated
             <span className="text-gray-800 ml-1 inline-block dark:text-white/90">
-              15 Jan, 2028
+              16 Feb, 2026
             </span>
           </p>
           <h2 className="mb-12 text-4xl font-semibold text-gray-800 dark:text-white/90">
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
               Rights you have over your data
             </h2>
             <p className="text-gray-500 font-normal dark:text-gray-400 leading-6 mb-4">
-              lineicons collects data about visits to lineicons.com.
+              Synkris AI collects data about visits to synkris.com to improve our services and user experience.
             </p>
             <p className="text-gray-500 font-normal dark:text-gray-400 leading-6">
               If you have an account on this site, or have left comments, you
